@@ -44,3 +44,8 @@ extra:
       link: https://github.com/cryptic-game
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/Cryptic_Game
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
