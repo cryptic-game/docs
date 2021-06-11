@@ -1,0 +1,43 @@
+site_name: Cryptic Documentation
+repo_url: https://github.com/cryptic-game/docs
+repo_name: cryptic-game/docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+#  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+  palette:
+    primary: light green
+    accent: deep orange
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/git-alt
+
+plugins:
+  - search:
+      prebuild_index: true
+  - git-revision-date
+  - redirects:
+        redirect_maps:
+            'index.md': 'infrastructure/index.md'
+  - minify:
+      minify_html: true
+      minify_js: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cryptic-game
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Cryptic_Game
