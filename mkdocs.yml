@@ -33,7 +33,7 @@ plugins:
   - git-revision-date
   - redirects:
         redirect_maps:
-            'index.md': 'infrastructure/index.md'
+            'index.md': 'deployment/public-instances.md'
   - minify:
       minify_html: true
       minify_js: true
