@@ -1,2 +1,4 @@
 * @MarcelCoding
-*.md @MarcelCoding @cryptic-game/text
+*.md @cryptic-game/text @MarcelCoding
+/docs/python/ @cryptic-game/text @cryptic-game/head-of-python-backend @cryptic-game/head-assistant-of-python-backend @Defelo
+/docs/java/ @cryptic-game/text @cryptic-game/head-of-java-backend @cryptic-game/head-assistant-of-java-backend
