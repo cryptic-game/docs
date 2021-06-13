@@ -23,4 +23,4 @@ This instance is always running the current latest **unstable** version.
 |----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | [`https://play.staging.cryptic-game.net`](https://play.staging.cryptic-game.net)             | The offical frontend.                                                                           |
 | `wss://server.staging.cryptic-game.net/ws`                                                   | The actual api for the frontend. ([Learn more](../protocol/websocket.md))                       |
-| [`https://server.staging.cryptic-game.net/api`](https://server.staging.cryptic-game.net/api) | The rest api for the game. (e.g. authentication, statisticsm [Learn more](../protocol/rest.md)) |
+| [`https://server.staging.cryptic-game.net/api`](https://server.staging.cryptic-game.net/api) | The rest api for the game. (e.g. authentication, statistics [Learn more](../protocol/rest.md)) |
