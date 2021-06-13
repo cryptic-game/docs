@@ -1,12 +1,15 @@
 site_name: Cryptic Documentation
-repo_url: https://github.com/cryptic-game/docs
 repo_name: cryptic-game/docs
+repo_url: https://github.com/cryptic-game/docs
 edit_uri: edit/main/docs/
 
 theme:
   name: material
 #  logo: assets/logo.svg
   favicon: assets/favicon.ico
+  font:
+    text: Public Sans
+    code: Roboto Mono
   palette:
     primary: light green
     accent: deep orange
