@@ -1,7 +1,7 @@
 site_name: Cryptic Documentation
 repo_name: cryptic-game/docs
 repo_url: https://github.com/cryptic-game/docs
-edit_uri: edit/main/docs/
+edit_uri: edit/master/docs/
 
 theme:
   name: material
