@@ -3,7 +3,7 @@
 The Daemon Api is the api that provides the communication between the Server and a Daemon.
 All interactions are instantiated from the Server.
 <br>
-This api is used to provide the frontend cabability to instantiate game processes.
+This api is used to provide the frontend capability to instantiate game processes.
 
 ## Structure
 
@@ -13,15 +13,15 @@ Every enpoint follows the following schema: `<endpoint-collection>/<endpoint>`
 
 | Name | Description |
 |------|-------------|
-| Endpoint Collection | As the name says, a endpoint collection is a collection of endpoints. All endpoints from a collection are from the same daemon. The pupuse of a endpoint collection is to group certan enpoints. (e.g. `network` contains all endpoints related to networks) |
-| Endpoint | A endpoint is like a funtion on a daemon witch can be executed by the frontend. Mostly it changes database stated or sends notifications to other users. |
+| Endpoint Collection | As the name says, a endpoint collection is a collection of endpoints. All endpoints from a collection are from the same daemon. The purpose of a endpoint collection is to group certain endpoints. (e.g. `network` contains all endpoints related to networks) |
+| Endpoint | A endpoint is like a function on a daemon witch can be executed by the frontend. Mostly it changes database stated or sends notifications to other users. |
 
 ## Security
 
-In normal cases all daemons are not public accessable. (e.g. secured by a firewall or Docker Networks)
+In normal cases all daemons are not public accessible. (e.g. secured by a firewall or Docker Networks)
 <br>
-Altrough all request must contain an api token. The api token can be configured with an environment variable on the server and dameon side.
-It is recommended to change the api token is requrlary time spans.
+Although all request must contain an api token. The api token can be configured with an environment variable on the server and Dameon side.
+It is recommended to change the api token is regular time spans.
 
 ## Request
 
@@ -57,7 +57,7 @@ The daemon must respond with the following headers:
 Content-Type: application/json; charset=utf-8
 ```
 
-The status code is also pased to the frontend.
+The status code is also passed to the frontend.
 
 ### Body
 
@@ -73,11 +73,11 @@ The daemon must respond with the following body:
 
 ## Endpoint Discovery
 
-When a server boots, it discovers all existing endpoints. Therefor it executes the discorvery endpoint for every dameon type.
-This is needed to filter out request for non-existing endpoints and to route reponses to the daemon according to the endpoint.
+When a server boots, it discovers all existing endpoints. Therefore, it executes the discovery endpoint for every Dameon type.
+This is needed to filter out request for non-existing endpoints and to route requests to the daemon according to the endpoint.
 <br>
 <br>
-The reponse looks like this:
+The response looks like this:
 
 ```json
 [
@@ -96,4 +96,4 @@ The reponse looks like this:
 ]
 ```
 
-__The description is currently not used.__
+_The description is currently not used._
