@@ -11,8 +11,20 @@ theme:
     text: Public Sans
     code: Roboto Mono
   palette:
-    primary: light green
-    accent: deep orange
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light green
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light green
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   features:
     - navigation.instant
     - navigation.tracking
